@@ -1,0 +1,40 @@
+#centerContent {
+  line-height: 100%;
+  text-align: center;
+}
+#centerContent h1,
+#centerContent p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  vertical-align: middle;
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+#centerContent p {
+  color: #555;
+}
+#centerContent h1.load,
+#centerContent p.load {
+  opacity: 1;
+}
+
+#thonk {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-blend-mode: screen;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+/*# sourceMappingURL=index.css.map */
