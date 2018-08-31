@@ -1,6 +1,8 @@
 #centerContent {
   line-height: 100%;
   text-align: center;
+  position: absolute;
+  top: 15%;
 }
 #centerContent h1,
 #centerContent p {
