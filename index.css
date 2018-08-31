@@ -46,6 +46,16 @@ body {
     position: absolute;
     top: 30%;
   }
+  #centerContent img {
+    width: 40%;
+    height: 40%;
+  }
+  #centerContent h1 {
+    font-size: 8vw;
+  }
+  #centerContent p {
+    font-size: 3vw;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
