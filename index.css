@@ -14,8 +14,12 @@
   -o-transition: opacity 2s ease-in;
   transition: opacity 2s ease-in;
 }
+#centerContent h1 {
+  font-size: 4vw;
+}
 #centerContent p {
   color: #555;
+  font-size: 1.5vw;
 }
 #centerContent h1.load,
 #centerContent p.load {
