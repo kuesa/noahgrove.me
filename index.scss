@@ -55,9 +55,9 @@ body {
   background-color: $light-colour;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   #centerContent {
     position: absolute;
-    top: 30%;
+    top: 50%;
   }
 }
