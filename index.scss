@@ -54,3 +54,10 @@ $dark-colour: #555;
 body {
   background-color: $light-colour;
 }
+
+@media screen and (max-width: 800px) {
+  #centerContent {
+    position: absolute;
+    top: 30%;
+  }
+}
