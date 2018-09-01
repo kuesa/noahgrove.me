@@ -1,0 +1,77 @@
+$main-font-family: Arial, Helvetica, sans-serif;
+$primary-colour: navy;
+$secondary-colour: #2b6df2;
+$light-colour: #f1f1f1;
+$dark-colour: #555;
+
+@mixin transition($property) {
+  -webkit-transition: $property;
+  -moz-transition: $property;
+  -ms-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}
+
+#centerContent {
+  line-height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+
+  h1,
+  p {
+    font-family: $main-font-family;
+    position: relative;
+    vertical-align: middle;
+    opacity: 0;
+    @include transition(opacity 2s ease-in);
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  p {
+    color: $dark-colour;
+    font-size: 1.5vw;
+  }
+
+  h1.load,
+  p.load {
+    opacity: 1;
+  }
+}
+
+#thonk {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-blend-mode: screen;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: $light-colour;
+}
+
+@media screen and (max-width: 1000px) {
+  #centerContent {
+    position: absolute;
+    top: 25%;
+
+    img {
+      width: 40%;
+      height: 40%;
+    }
+
+    h1 {
+      font-size: 8vw;
+    }
+    p {
+      font-size: 3vw;
+    }
+  }
+}
