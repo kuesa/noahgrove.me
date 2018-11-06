@@ -2,21 +2,33 @@
 <html>
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Work In Progress</title>
+    <title>Noah Grove</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="thinking.png">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
 </head>
 
 <body>
-    <div id="centerContent">
-        <img id="thonk" src="thinking-rotating.gif">
-        <h1>Work In Progress</h1>
-        <p>New Features Coming Soon...</p>
-    </div>
+    <nav class="nav">
+        <div class="nav-wrapper blue">
+            <a href="#" class="brand-logo">Noah Grove</a>
+            <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="music.html">Music</a></li>
+    </ul>
 
-    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
