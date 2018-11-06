@@ -14,17 +14,24 @@
             <a href="#" class="brand-logo">Noah Grove</a>
             <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="music.html">Music</a></li>
+                <li class="active" id="projLink"><a href="#projects">Projects</a></li>
+                <li id="resLink"><a href="#resume">Resume</a></li>
+                <li id="musLink"><a href="#music">Music</a></li>
             </ul>
         </div>
     </nav>
     <ul class="sidenav" id="mobile">
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="music.html">Music</a></li>
+        <li class='mobileLink'><a href="#projects">Projects</a></li>
+        <li class='mobileLink'><a href="#resume">Resume</a></li>
+        <li class='mobileLink'><a href="#music">Music</a></li>
     </ul>
+
+    <div id="projects">Projects</div>
+
+    <div hidden id="resume">Resume</div>
+
+    <div hidden id="music">Music</div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bin/materialize.min.js"></script>
