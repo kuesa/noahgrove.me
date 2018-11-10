@@ -1,41 +1,160 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Noah Grove</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/materialize.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/materialize.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="nav">
-        <div class="nav-wrapper blue">
-            <a href="#" class="brand-logo">Noah Grove</a>
-            <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="active" id="projLink"><a href="#projects">Projects</a></li>
-                <li id="resLink"><a href="#resume">Resume</a></li>
-                <li id="musLink"><a href="#music">Music</a></li>
-            </ul>
-        </div>
+      <div class="nav-wrapper blue">
+        <a href="#" class="brand-logo">Noah Grove</a>
+        <a href="#" data-target="mobile" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="active" id="projLink"><a href="#projects">Projects</a></li>
+          <li id="resLink"><a href="#resume">Resume</a></li>
+          <li id="musLink"><a href="#music">Music</a></li>
+        </ul>
+      </div>
     </nav>
     <ul class="sidenav" id="mobile">
-        <li class='mobileLink'><a href="#projects">Projects</a></li>
-        <li class='mobileLink'><a href="#resume">Resume</a></li>
-        <li class='mobileLink'><a href="#music">Music</a></li>
+      <li class="mobileLink"><a href="#projects">Projects</a></li>
+      <li class="mobileLink"><a href="#resume">Resume</a></li>
+      <li class="mobileLink"><a href="#music">Music</a></li>
     </ul>
 
-    <div id="projects">Projects</div>
+    <div id="projects">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/todo.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >todo<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >todo<i class="material-icons right">close</i></span
+              >
+              <p>
+                A multi-platform task management application, designed to
+                proactively manage the user's time, built in Electron, React,
+                Flutter, and Golang.
+              </p>
+            </div>
+            <div class="card-action">
+              <div class="progress">
+                <div class="determinate blue" style="width: 5%"></div>
+              </div>
+              <a href="https://github.com/kuesa/todo">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/wave.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >WAVE<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >WAVE<i class="material-icons right">close</i></span
+              >
+              <p>
+                A Tri-Channel music sequencer modeled after the sound card in
+                the Commodore 64, built in Electron, JQuery, and Tone.js.
+              </p>
+            </div>
+            <div class="card-action">
+              <div class="progress">
+                <div class="determinate blue" style="width: 25%"></div>
+              </div>
+              <a href="https://github.com/kuesa/wave">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/barry.png" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Barry<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title activator grey-text text-darken-4"
+                >Barry<i class="material-icons right">close</i></span
+              >
+              <p>
+                A Discord bot that collects text data and trains it on a
+                TensorFlow implementation of Andrej Karpathy's LSTM RNN, made in
+                Python.
+              </p>
+            </div>
+            <div class="card-action">
+              <div class="progress">
+                <div class="determinate green" style="width: 100%"></div>
+              </div>
+              <a href="https://github.com/kuesa/barry">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/noahgrove.PNG" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >ノア.みんな (noahgrove.me)<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title activator grey-text text-darken-4"
+                >ノア.みんな (noahgrove.me)<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>
+                My personal website, featuring my work and accomplishments, made
+                in HTML5, CSS, JS, and Materialize.
+              </p>
+            </div>
+            <div class="card-action">
+              <div class="progress">
+                <div class="determinate green" style="width: 100%"></div>
+              </div>
+              <a href="https://github.com/kuesa/noahgrove.me">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div hidden id="resume">Resume</div>
 
     <div hidden id="music">Music</div>
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bin/materialize.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-</body>
-
+  </body>
 </html>
